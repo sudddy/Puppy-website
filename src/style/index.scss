@@ -1,0 +1,157 @@
+//#region Variable  ----------------------------------------
+$break-min: 300px;
+$break-large: 1040px;
+$break-lg: 1200px;
+$break-md: 992px;
+$break-small: 450px;
+$break-sm: 768px;
+
+//#region Page section style -------------------------------
+
+@font-face {
+  font-family: "QuickSand Bold";
+  src: url("../fonts/Quicksand-Bold.ttf");
+}
+
+@font-face {
+  font-family: "QuickSand Light";
+  src: url("../fonts/Quicksand-Light.ttf");
+}
+
+@font-face {
+  font-family: "QuickSand Regular";
+  src: url("../fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+  font-family: "QuickSand Medium";
+  src: url("../fonts/Quicksand-Medium.ttf");
+}
+
+.page-head {
+  .header {
+    position: relative;
+    max-width: 1440px;
+    color: white;
+    padding: 100px;
+    background-image: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0),
+      #000000 75%
+    );
+    margin: 0 0 27px;
+    @media only screen and (max-width: 769px) {
+      padding: 50px 20px;
+    }
+    .header-heading {
+      font-size: 22.5px;
+      font-family: "QuickSand Bold";
+    }
+    .header-content {
+      margin-top: 5px;
+      font-size: 12px;
+      line-height: 17px;
+      font-family: "QuickSand Medium";
+    }
+    .button {
+      margin-top: 12.5px;
+      width: 84px;
+      background-color: #de6c17;
+      border: none;
+      color: white;
+
+      padding: 8px 0px;
+      border-radius: 2px;
+      background-color: #de6c17;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 9px;
+    }
+  }
+  .services {
+    padding: 20px;
+    .service-heading {
+      display: flex;
+      justify-content: center;
+      font-size: 22.5px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #36413c;
+    }
+    .service-description {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.42;
+      letter-spacing: normal;
+      text-align: center;
+      color: #5e6e66;
+    }
+  }
+  .card-container {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    @media only screen and (max-width: 769px) {
+      display: block;
+      padding: 10px 40px;
+    }
+  }
+  .card {
+    width: 320px;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.18);
+    background-color: #ffffff;
+    @media only screen and (max-width: 769px) {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  .card-content {
+    margin: 20px;
+    font-size: 9px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #5e6e66;
+  }
+  .learn-more {
+    margin: 20px;
+    padding-bottom: 20px;
+    font-size: 9px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #de6c17;
+  }
+
+  .image-one {
+    background-color: green;
+  }
+
+  .card-tab {
+    border-radius: 4px;
+    margin: 20px 100px;
+    box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.18);
+    background-color: #ffffff;
+    .card-horizontal {
+      margin-top: 20px;
+      display: flex;
+      flex: 1 1 auto;
+    }
+  }
+}
+//#End of advantage page styles
